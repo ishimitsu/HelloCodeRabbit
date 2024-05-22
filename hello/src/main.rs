@@ -2,7 +2,7 @@ fn main () {
     hello();
 }
 
-fn hello() {
+fn hello() -> bool {
     println!("Hello World!");
 }
 
