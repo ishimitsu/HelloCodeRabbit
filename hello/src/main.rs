@@ -4,11 +4,12 @@ fn main () {
 
 fn hello() -> bool {
     println!("Hello World!");
+    true
 }
 
 #[cfg(test)]
 mod tests {
-    use crate::hello
+    use crate::hello;
 
     #[test]
     fn hello_test() {
